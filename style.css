@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    background: #865439;
+}
+
+/* /////////////////////////////////// */
+/* Header Section */
+
+header {
+    height: 101px;
+    background-color: #4f0e0e;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+        0 0 2px rgb(0 0 0 / 7%);
+}
+
+.header-container {
+    max-width: 75rem;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.left-nav nav ul li:hover {
+    color: #0a1931b2;
+    cursor: pointer;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.right-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right-nav div {
+    margin-left: 1.5rem;
+}
+
+.find-store {
+    display: flex;
+}
+
+.find-store span {
+    margin-left: 0.7rem;
+    font-weight: 600;
+}
+
+.find-store i {
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+}
+
+.find-store:hover {
+    color: #0a1931b7;
+    cursor: pointer;
+}
+
+.sign-in,
+.join-now {
+    border: 1.5px solid #0a1931;
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.sign-in {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background-color: #0a1931;
+}
+
+.join-now {
+    background-color: #0a1931;
+    transition: all 0.2s ease;
+}
+
+.join-now:hover {
+    background: #4f0e0e;
+    cursor: pointer;
+}
