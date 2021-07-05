@@ -54,7 +54,7 @@ header {
 }
 
 .left-nav nav ul li:hover {
-    color: #525050;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -94,13 +94,13 @@ header {
 }
 
 .find-store:hover {
-    color: #525050;
+    color: #fff;
     cursor: pointer;
 }
 
 .sign-in,
 .join-now {
-    border: 1.5px solid #171717;
+    border: 1.5px solid #525050;
     padding: 7px 16px;
     border-radius: 50px;
     font-weight: 600;
@@ -112,6 +112,7 @@ header {
 }
 
 .sign-in:hover {
+    color: #fff;
     background: #5d2929d5;
 }
 
@@ -121,6 +122,7 @@ header {
 }
 
 .join-now:hover {
+    color: #fff;
     background: #5d2929d5;
     cursor: pointer;
 }

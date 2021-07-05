@@ -60,7 +60,7 @@
 }
 
 .text .cta:hover {
-    background-color: #4f0e0e;
+    background-color: #4f0e0e8f;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -111,7 +111,7 @@
 }
 
 .card--content {
-    background-color: #232323b4;
+    background-color: #232323a1;
     height: 250px;
     display: flex;
     flex-direction: column;
