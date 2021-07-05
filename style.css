@@ -8,7 +8,11 @@ body {
     font-weight: 400;
     color: #fff;
     line-height: 1.6;
-    background: #865439;
+    background: #865439e7;
+}
+
+a {
+    color: #865439e7;
 }
 
 /* /////////////////////////////////// */
@@ -16,13 +20,12 @@ body {
 
 header {
     height: 101px;
+    color: rgba(255, 255, 255, 0.507);
     background-color: #4f0e0e;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
-        0 0 2px rgb(0 0 0 / 7%);
 }
 
 .header-container {
-    max-width: 75rem;
+    max-width: 70rem;
     margin: 0 auto;
     height: 100%;
     display: flex;
