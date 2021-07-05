@@ -14,7 +14,10 @@ body {
 a {
     color: #865439e7;
 }
-
+a:hover {
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
 /* /////////////////////////////////// */
 /* Header Section */
 
@@ -109,7 +112,7 @@ header {
 }
 
 .sign-in:hover {
-    background-color: #171717;
+    background: #5d2929d5;
 }
 
 .join-now {
@@ -118,6 +121,6 @@ header {
 }
 
 .join-now:hover {
-    background: #4f0e0e;
+    background: #5d2929d5;
     cursor: pointer;
 }
